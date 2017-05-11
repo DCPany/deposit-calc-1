@@ -2,7 +2,7 @@
 CFLAGS = -Wall -Werror -MP -MMD
 SOURCES = src/main.c src/deposit.c
 OBJECTS = $(SOURCES:.c=.o)
-.PH: clean all deposit-calc
+.PHONY: clean all deposit-calc
 
 all :
 	make bin/deposit-calc
