@@ -2,6 +2,7 @@ CFLAGS = -Wall -Werror -MP -MMD
 .PHONY: clean all deposit-calc test
 
 all :
+	@mkdir bin
 	make bin/deposit-calc
 
 bin/deposit-calc : build/main.o build/deposit.o
