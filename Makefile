@@ -3,6 +3,8 @@ CFLAGS = -Wall -Werror -MP -MMD
 
 all :
 	@mkdir bin
+	@mkdir build
+	@mkdir build/test
 	make bin/deposit-calc
 
 bin/deposit-calc : build/main.o build/deposit.o
@@ -34,6 +36,7 @@ build/test/deposit-test.o : src/deposit.h test/deposit-test.c
 build/test/deposit.o : src/deposit.h src/deposit.c
 	@echo "Making deposit.o"
 	@gcc -c src/deposit.c -o build/test/deposit.o $(CFLAGS)
+	./bin/deposit-calc-test
 
 clean :
 	@echo "Cleaning files in build directory"
