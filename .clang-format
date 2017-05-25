@@ -43,7 +43,7 @@ SpaceBeforeAssignmentOperators: true
 SpaceBeforeParens: ControlStatements
 SpaceInEmptyParentheses: false
 SpacesBeforeTrailingComments: 1
-SpacesInContainerLiterals: true
+#SpacesInContainerLiterals: true
 SpacesInCStyleCastParentheses: false
 SpacesInParentheses: false
 #SpacesInSquareBrackets: false
