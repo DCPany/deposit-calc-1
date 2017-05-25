@@ -11,7 +11,7 @@ CTEST(check, test_number_1)
     int result = check (a,b);
 
     // Then
-    int expected = 1;
+    int expected = 0;
     ASSERT_EQUAL(expected, result);
 }
 
