@@ -4,4 +4,6 @@
 .main.c.swp
 main.c~ 
 #main.c#
+./bin/deposit-calc
+./bin/deposit-calc-test
 
