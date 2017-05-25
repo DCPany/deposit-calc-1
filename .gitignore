@@ -1,9 +1,11 @@
 # ignore following files
 
+
 *.o
 .main.c.swp
 main.c~ 
 #main.c#
 ./bin/deposit-calc
 ./bin/deposit-calc-test
+
 
