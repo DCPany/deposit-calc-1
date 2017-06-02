@@ -1,3 +1,3 @@
 language: c
-script: ./astyle src/deposit.c
+script: ./clang/build/clang/bin/astyle  src/deposit.c
 install: true
