@@ -3,9 +3,9 @@
 int check(int s, int t)
 {
 if ((t <= 0) || (t > 365) || (s < 10000))
-        return 1;
-    else
-    return 0;
+return 1;
+else
+return 0;
 }
 float proffit(int x, int z)
 {
